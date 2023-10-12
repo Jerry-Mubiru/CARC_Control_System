@@ -7,7 +7,7 @@ class Deliverable(ABC):
 
     #variables for the email
     TO_ADDRESS = "jcm253@case.edu"
-    FROM_ADDRESS = "mubiru.jerry1@gmail.com"
+    FROM_ADDRESS = "w8edu.emergencycommunications@gmail.com"
     email_subject = ""
     email_message = ""
 
