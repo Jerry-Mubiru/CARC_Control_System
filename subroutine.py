@@ -11,6 +11,7 @@ class Subroutine():
         #run the actions for A to B
         #send the email - main power off when the battery is sufficiently charged
         Email_carc.send_email(Alert_Main_Power_Off())
+        print("Subroutine called..")
         #other state change actions
     
     #functional subroutine B_C

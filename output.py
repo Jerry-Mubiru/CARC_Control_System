@@ -1,4 +1,5 @@
 from subroutine import Subroutine
+import sys
 
 class Output:
     #The launch function calls a different subroutine for the specified arguments given 
@@ -29,3 +30,10 @@ class Output:
         if (old_state == "d" or old_state == "D") and (new_state == "a" or new_state == "A"):
             #call the corresponding subroutine
             Subroutine.subroutine_D_A()
+    
+def main(args):
+    print("hello from the main function")
+    Output.launch("a","b")
+
+if __name__ == "__main__":
+    main(sys.argv)
