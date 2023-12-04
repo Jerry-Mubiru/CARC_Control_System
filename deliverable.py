@@ -6,8 +6,10 @@ from abc import ABC,abstractmethod
 class Deliverable(ABC):
 
     #variables for the email
-    TO_ADDRESS = "<<insert email here>>"
-    FROM_ADDRESS = "w8edu.emergencycommunications@gmail.com"
+    TO_ADDRESS = "w8edu-emergency-communications@case.edu" 
+    TO_NUMBER = "+12162355191" 
+    FROM_ADDRESS = "w8edu.comms@gmail.com" 
+    FROM_NUMBER = "+18778130036" 
     email_subject = ""
     email_message = ""
 
